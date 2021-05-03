@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96c0efc0-72dd-4c06-b74f-fe3efb26e2d7" name="Default Changelist" comment="membuat assesment 2">
-      <change afterPath="$PROJECT_DIR$/public/actionlogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/actiontambah.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/foto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hapus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/koneksi.php" afterDir="false" />
+    <list default="true" id="96c0efc0-72dd-4c06-b74f-fe3efb26e2d7" name="Default Changelist" comment="Membuat file assesment">
+      <change afterPath="$PROJECT_DIR$/public/actionregistrasi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/install.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tambah.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/tambah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/actiontambah.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/actiontambah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/koneksi.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/koneksi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/registrasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/registrasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ubah.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/ubah.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <updated>1620006310625</updated>
       <workItem from="1620006321651" duration="19560000" />
       <workItem from="1620045995031" duration="15006000" />
-      <workItem from="1620074743886" duration="474000" />
+      <workItem from="1620074743886" duration="5000000" />
     </task>
     <task id="LOCAL-00001" summary="Membuat file html">
       <created>1620006445618</created>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620074798435</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Membuat file assesment">
+      <created>1620075428106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620075428106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Membuat file html" />
     <MESSAGE value="membuat assesment 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="membuat assesment 2" />
+    <MESSAGE value="Membuat file assesment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Membuat file assesment" />
   </component>
 </project>

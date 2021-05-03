@@ -20,14 +20,9 @@
 
 
                     <table border=0 align=”center”>
-                        <form action="" method="POST">
+                        <form action="actionregistrasi.php" method="POST">
 
-                            <tr>
-                                <div class="form-group">
-                                    <td><label for="nama">Nama</label></td>
-                                    <td><input class="form-control" type="text" name="nama" placeholder="Nama " /></td>
-                                </div>
-                            </tr>
+
                             <tr>
 
                                 <div class="form-group">
@@ -37,12 +32,6 @@
                             </tr>
                             <tr>
 
-                                <div class="form-group">
-                                    <td><label for="nohp">No hp</label></td>
-                                    <td><input class="form-control" type="text" name="nohp" id="nohp" placeholder="No HP" /></td>
-                                </div>
-                            </tr>
-                            <tr>
 
                                 <div class="form-group">
                                     <td><label for="password">Password</label></td>
@@ -50,12 +39,6 @@
                                 </div>
                             </tr>
 
-                            <tr>
-                                <div class="form-group">
-                                    <td><label for="password2">Konfirmasi Password</label></td>
-                                    <td><input class="form-control" type="password" name="password2" id="password2" placeholder="Konfirmasi Password" /></td>
-                                </div>
-                            </tr>
 
                             <tr>
                                 <td colspan=2>
@@ -87,3 +70,5 @@
 </body>
 
 </html>
+
+

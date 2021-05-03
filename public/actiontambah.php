@@ -2,7 +2,6 @@
 function tambah($data)
 {
     include 'koneksi.php';
-    $id =
     $semester = htmlspecialchars($data["semester"]);
     $ipk =  htmlspecialchars($data["ip"]);
 

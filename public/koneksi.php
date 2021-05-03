@@ -16,3 +16,25 @@ function query($query)
 	}
 	return $rows;
 }
+
+function ubah($data){
+	global $koneksi;
+
+	$id = $data["id"];
+	$semester = htmlspecialchars($data["semester"]);
+	$IPK = htmlspecialchars($data["ip"]);
+
+	$query = "UPDATE ipk SET
+				semester = '$semester',
+				ip = '$IPK'
+			WHERE id = $id;
+			";
+	mysqli_query($koneksi, $query);
+	return mysqli_affected_rows($koneksi);
+}
+
+function hapus($id){
+	global $koneksi;
+	mysqli_query($koneksi, "DELETE FROM ipk WHERE id = $id");
+	return mysqli_affected_rows($koneksi);
+}

@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require '$koneksi.php';
 session_start();
 
 if (!isset($_SESSION["login"])) {
@@ -9,26 +9,23 @@ if (!isset($_SESSION["login"])) {
 
 $id = $_GET["id"];
 
-$mhs = query("SELECT * FROM mahasiswa WHERE id = $id")[0];
 
 $ipk = query("SELECT * FROM ipk WHERE id = $id")[0];
 
 
 
 if (isset($_POST["submit"])) {
-
-
 	if (ubah($_POST) > 0) {
 		echo "
 			<script>
-				alert ('Data berhasil diubah :D');
+			alert ('Data berhasil diubah ');
 				document.location.href = 'index.php';
 			</script>
 		";
 	} else {
 		echo "
 			<script>
-				alert ('Maaf data gagal diubah :(');
+				alert ('Maaf data gagal diubah ');
 				document.location.href = 'index.php';
 			</script>
 		";
