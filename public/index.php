@@ -1,5 +1,5 @@
 <?php
-require '$koneksi';
+require 'koneksi.php';
 
 $IPK = query("SELECT * FROM ipk");
 $result = mysqli_query($koneksi, $IPK);
@@ -62,6 +62,7 @@ $result = mysqli_query($koneksi, $IPK);
 				<th>IPK</th>
 
 			</tr>
+
 			<?php $i = 1; ?>
 			<?php foreach ($IPK as $row) : ?>
 				<tr>
@@ -73,8 +74,8 @@ $result = mysqli_query($koneksi, $IPK);
 						</a>
 					</td>
 
-					<td><?php echo $row["semester"]; ?></td>
-					<td><?php echo $row["ip"]; ?></td>
+					<td><?php echo $row['semester']; ?></td>
+					<td><?php echo $row['ip']; ?></td>
 
 				</tr>
 				<?php $i++; ?>
