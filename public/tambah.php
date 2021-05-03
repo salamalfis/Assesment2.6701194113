@@ -16,7 +16,7 @@
 				</tr>
 				<tr>
 					<td>IPK</td>
-					<td><input type="text" name="ipk"></td>
+					<td><input type="text" name="ip"></td>
 				</tr>
 
 				<tr>
